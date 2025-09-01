@@ -10,7 +10,6 @@ import Roadmap from "./Roadmap";
 
 import About from "./About";
 
-import Resources from "./Resources";
 
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 
@@ -25,8 +24,6 @@ const PAGES = {
     Roadmap: Roadmap,
     
     About: About,
-    
-    Resources: Resources,
     
 }
 
@@ -64,8 +61,6 @@ function PagesContent() {
                 <Route path="/Roadmap" element={<Roadmap />} />
                 
                 <Route path="/About" element={<About />} />
-                
-                <Route path="/Resources" element={<Resources />} />
                 
             </Routes>
         </Layout>

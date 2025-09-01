@@ -9,7 +9,7 @@ import CTABand from "../components/shared/CTABand";
 const phases = [
   {
     phase: "Alpha",
-    timeline: "Q1 2024",
+    timeline: "Q3 2025",
     status: "in_progress",
     title: "Core Platform & Early Testing",
     description: "Building the foundational orchestration platform with select design partners",
@@ -25,7 +25,7 @@ const phases = [
   },
   {
     phase: "Beta",
-    timeline: "Q2 2024", 
+    timeline: "Q1 2026", 
     status: "planned",
     title: "Enterprise Features & Scale Testing",
     description: "Production-ready security, monitoring, and multi-cloud support",
@@ -41,7 +41,7 @@ const phases = [
   },
   {
     phase: "GA",
-    timeline: "Q3 2024",
+    timeline: "Q2 2026",
     status: "planned", 
     title: "General Availability",
     description: "Fully supported product with enterprise SLAs and expanded platform support",
@@ -58,12 +58,14 @@ const phases = [
 ];
 
 const milestones = [
-  { date: "Jan 2024", title: "Alpha launch with design partners", completed: true },
-  { date: "Feb 2024", title: "Multi-cloud failover implementation", completed: true },
-  { date: "Mar 2024", title: "Security audit & enterprise controls", completed: false },
-  { date: "Apr 2024", title: "Beta program opens", completed: false },
-  { date: "May 2024", title: "Performance benchmarking", completed: false },
-  { date: "Jun 2024", title: "Production readiness review", completed: false },
+  { date: "Jul 2025", title: "Alpha launch with design partners", completed: true },
+  { date: "Sep 2025", title: "Security audit & enterprise controls", completed: true },
+  { date: "Nov 2025", title: "Performance benchmarking & readiness review", completed: false },
+  { date: "Jan 2026", title: "Beta program opens", completed: false },
+  { date: "Mar 2026", title: "Beta scale testing & enterprise SLAs", completed: false },
+  { date: "May 2026", title: "General Availability (GA)", completed: false },
+  { date: "Jul 2026", title: "Third-party integrations rollout", completed: false },
+  { date: "Sep 2026", title: "Advanced cost analytics release", completed: false },
 ];
 
 export default function RoadmapPage() {
@@ -177,7 +179,7 @@ export default function RoadmapPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-              2024 Milestones
+              2025–2026 Milestones
             </h2>
             <p className="text-xl text-slate-600">
               Key milestones and deliverables throughout our development journey.
